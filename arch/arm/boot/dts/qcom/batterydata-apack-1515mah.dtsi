@@ -1,0 +1,61 @@
+/*
+ * Copyright (c) 2015, The Linux Foundation. All rights reserved.
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 and
+ * only version 2 as published by the Free Software Foundation.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ */
+
+qcom,apack-630mah {
+	qcom,max-voltage-uv = <4350000>;
+    qcom,v-cutoff-uv = <3400000>;
+	qcom,nom-batt-capacity-mah = <1515>;
+	qcom,batt-id-kohm = <240>;
+	qcom,battery-beta = <3435>;
+	qcom,battery-type = "apack-1515mah";
+	qcom,chg-rslow-comp-c1 = <683258>;
+	qcom,chg-rslow-comp-c2 = <454355>;
+	qcom,chg-rs-to-rslow = <785925>;
+	qcom,chg-rslow-comp-thr = <0xAB>;
+	qcom,checksum = <0xA7E1>;
+	qcom,gui-version = "PMI8950GUI - 2.0.0.16";
+	qcom,fg-profile-data = [
+		 3B 88 F9 84
+		 46 88 B8 7E
+		 57 83 52 56
+		 64 7B 53 84
+		 37 82 1D 98
+		 F1 B4 04 C0
+		 6A 16 23 88
+		 FC 7F 2F 83
+		 8B 7D 4C 83
+		 7B 70 BD 54
+		 79 75 41 82
+		 A0 99 F4 BC
+		 36 CA 6B 0E
+		 A5 02 E8 63
+		 CE 6E AD FF
+		 6E 3E 85 46
+		 E6 41 00 00
+		 5C 4D FD 31
+		 27 40 00 00
+		 00 00 00 00
+		 00 00 00 00
+		 59 71 56 71
+		 A5 6A B7 81
+		 CA 6D 02 4B
+		 A0 6B 01 80
+		 16 6D F3 47
+		 8C 79 F7 C8
+		 11 83 68 A8
+		 65 A0 71 0C
+		 28 00 FF 36
+		 F0 11 30 03
+		 00 00 00 0C
+	];
+};

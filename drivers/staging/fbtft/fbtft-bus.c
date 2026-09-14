@@ -1,0 +1,1 @@
+/home/inaro/src/github.com/ubiquiti/debbox/target/kernel/files/linux-3.18.x-fbtft/./drivers/staging/fbtft/fbtft-bus.c
